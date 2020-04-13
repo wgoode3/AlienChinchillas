@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="~/css/style.css">
 </head>
 <body>
     <fieldset>
         <legend>This sure is something</legend>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquam animi perferendis veniam praesentium explicabo maiores vitae, cumque minima optio quas fuga architecto officiis. Aliquam consectetur sequi amet sint exercitationem dolorem et porro ullam, maxime architecto est, vero deserunt corporis, totam obcaecati non ea quis dolore. Quam nisi sed amet natus optio nam aut facilis.</p>
+        <h3>
+            @DateTime.Now.ToString("MMM dd, yyyy")
+            <br>
+            @DateTime.Now.ToString("h:mm tt")
+        </h3>
         <a href="/">Back</a>
     </fieldset>
 </body>

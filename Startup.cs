@@ -23,6 +23,7 @@ namespace AlienChinchillas
         {
             app.UseDeveloperExceptionPage();
             app.UseMvc();
+            app.UseStaticFiles();
         }
     }
 }
